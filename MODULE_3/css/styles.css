@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0px;
+  padding: 0px;
+}
+.container1 {
+  margin: 0px 10px ;
+  padding: 0px 10px ;
+}
+
+.navbar-brand{
+  /* font-family: 'Crimson Text', serif; */
+  font-family: 'Source Code Pro', monospace;
+}
+
+#header-nav .navbar-brand{
+  margin : 5px 0px 0px 5px;
+  font-size: 1.5em;
+  padding: 5px 0px 0px 5px;
+  line-height: 31px;
+  color: aquamarine;
+  
+  }
+
+  #heading{
+    line-height: 10px;
+    font-family: 'Crimson Text', serif;
+  }
+
+  @media (min-width: 992px){
+    .box .col-md-12 p{
+      padding: 5px;
+      margin: 5px;
+
+    }
+
+    .box .col-md-12 h5{
+      font-size: 1.5em;
+    }
+
+  }
+
+  @media (max-width: 991px) and (min-width:768px){
+    .box .col-sm-12 p{
+      padding: 5px;
+      margin: 5px;
+
+    }
+
+    .box .col-sm-12 h5{
+      font-size: 1.5em;
+    }
+
+  }
+
+  @media (max-width: 767px){
+    .box .col-xs-12 p{
+      padding: 5px;
+      margin: 5px;
+      width : 90%
+    }
+
+    .box .col-xs-12 h5{
+      font-size: 1.5em;
+    }
+
+  }
+  #nav-list{
+    margin-top: 10px;
+  }
+  #nav-list li{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Monoton', cursive;
+  }
+
+  #header-nav button .navbar-toggle , .icon-bar{
+    border : 2px solid black;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.navbar-default {
+  background-color: #000000;
+  border-color: orange;
+  border-radius: 10px;
+  border-width: 5px;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+#I1,#I2,#I3{
+  background-color: black;
+  color: #ffffff;
+  margin :auto ;
+  margin-bottom: 20px;
+  border-color: orange;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+}
+.item{
+  font-weight: bold ;
+  font-family: 'Cinzel', serif;
+  border-width: 2px;
+  
+}
+.txt{
+  font-family: 'Special Elite', cursive;
+
+}
+/* .text-center{
+  font-family: 'Monoton', cursive;
+
+} */
