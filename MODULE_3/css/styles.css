@@ -31,7 +31,7 @@
     font-family: 'Crimson Text', serif;
   }
 
-  @media (min-width: 992px){
+  /* @media (min-width: 992px){ */
     .box .col-md-12 p{
       padding: 5px;
       margin: 5px;
@@ -42,9 +42,9 @@
       font-size: 1.5em;
     }
 
-  }
+  /* } */
 
-  @media (max-width: 991px) and (min-width:768px){
+  /* @media (max-width: 991px) and (min-width:768px){ */
     .box .col-sm-12 p{
       padding: 5px;
       margin: 5px;
@@ -55,9 +55,9 @@
       font-size: 1.5em;
     }
 
-  }
+  /* } */
 
-  @media (max-width: 767px){
+  /* @media (max-width: 767px){ */
     .box .col-xs-12 p{
       padding: 5px;
       margin: 5px;
@@ -68,7 +68,7 @@
       font-size: 1.5em;
     }
 
-  }
+  /* } */
   #nav-list{
     margin-top: 10px;
   }
